@@ -129,20 +129,20 @@ nav{
     transform .2s ease-in-out .2s;
 }
 
-.nav-burger .active .ligne:nth-child(2){
+.nav-burger.active .ligne:nth-child(2){
     transform: translateX(-100px);
     opacity: 0;
 }
 
-.nav-burger .active .ligne:nth-child(1){
+.nav-burger.active .ligne:nth-child(1){
     top: 18px;
-    transform: rotate(130 deg);
+    transform: rotate(130deg);
     background: $jaune;
 }
 
-.nav-burger .active .ligne:nth-child(3){
+.nav-burger.active .ligne:nth-child(3){
     top: 18px;
-    transform: rotate(-130 deg);
+    transform: rotate(-130deg);
     background: $jaune;
 }
 
@@ -171,6 +171,7 @@ nav{
     }
 
     .nav-menu.active{
+        display: flex;
         left: 50%;
     }
 }

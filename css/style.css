@@ -131,20 +131,20 @@ nav {
   transition: top 0.2s ease-in, transform 0.2s ease-in-out 0.2s;
 }
 
-.nav-burger .active .ligne:nth-child(2) {
+.nav-burger.active .ligne:nth-child(2) {
   transform: translateX(-100px);
   opacity: 0;
 }
 
-.nav-burger .active .ligne:nth-child(1) {
+.nav-burger.active .ligne:nth-child(1) {
   top: 18px;
-  transform: rotate(130 deg);
+  transform: rotate(130deg);
   background: #eca236;
 }
 
-.nav-burger .active .ligne:nth-child(3) {
+.nav-burger.active .ligne:nth-child(3) {
   top: 18px;
-  transform: rotate(-130 deg);
+  transform: rotate(-130deg);
   background: #eca236;
 }
 
@@ -172,6 +172,7 @@ nav {
     display: block;
   }
   .nav-menu.active {
+    display: flex;
     left: 50%;
   }
 }
