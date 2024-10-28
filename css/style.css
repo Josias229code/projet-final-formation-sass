@@ -153,6 +153,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -170,7 +171,7 @@ nav {
   .nav-burger {
     display: block;
   }
-  .nav-menu .active {
+  .nav-menu.active {
     left: 50%;
   }
 }
